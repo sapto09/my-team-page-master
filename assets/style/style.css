@@ -1,0 +1,10 @@
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+/* font-family: PT serrif; || font-family:poppins; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+body {
+    height: 1489px;
+    width: 1440px;
+    background-color: #FAFAFA;
+}
