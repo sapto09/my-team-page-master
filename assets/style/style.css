@@ -44,7 +44,6 @@ h1 {
 /* main */
 main {
     width: 100%;
-
 }
 
 .pertama, .kedua {
@@ -59,7 +58,7 @@ main {
 
 figure {
     width: 20%;
-    border: 2px solid black;
+
 }
 figure img {
     width: 78%;
@@ -67,15 +66,13 @@ figure img {
 
 /* footer */
 footer {
-    width: 100%;
-    margin-top: 10%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-    
+    bottom: 0;
+    right: 0;
     text-align: center;
     
     color: #A9A9A9;
@@ -114,20 +111,16 @@ footer {
         position: absolute;
         width: 40%;
     }
-    .tengah {
-        margin-top: 0;
-    }
     .kiri {
         right: 45%;
-        top: 20px;
     }
     .kanan {
         left: 45%;
-        top: 100px;
     }
-
+    
+    /* footer */
     footer {
-        margin-top:120%; 
+        margin-top:150%; 
     }
     
 }
