@@ -1,7 +1,71 @@
-/* font-family: 'Montserrat', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap');
-/* font-family: PT serrif; || font-family:poppins; */
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+/* Font-family
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+ */
 * { 
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 16px;
+}
+
+.container {
+    width: 70%;
+    margin: 3em auto;
+}
+
+.row {
+    display: flex;
+    justify-content:space-between;
+}
+
+.col {
+    width: 45%;
+}
+
+.pt-serif {
+    font-family: 'PT Serif', serif;
+}
+.subtitle {
+    font-family: 'Poppins';
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+}
+.paragraph {
+    line-height: 1.75rem;
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.row--2 {
+    display: flex;
+    width: 28%;
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+}
+
+img {
+    width: 98%;
+}
+figcaption{
+    writing-mode: vertical-rl;
+    font-family: 'PT serif', serif;
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
+
+.center {
+    margin: 5% 0;
 }
