@@ -69,3 +69,38 @@ figcaption{
 .center {
     margin: 5% 0;
 }
+
+footer {
+    padding: 2em;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.875rem;
+    font-family: 'Montserrat';
+    color: #A9A9A9;
+}
+
+@media (max-width:750px) {
+    header .row {
+        display: block;
+        width: 80%;
+    }
+    header .row .col {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .row--2 {
+        width: 40%;
+    }
+
+    .center {
+        margin-top: 0;
+    }
+    .right {
+        margin-top: 30px;
+    }
+    h3{
+        font-size: .8rem;
+    }
+}
